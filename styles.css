@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  font-family: "Poppins", sans-serif; 
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +22,30 @@ body {
   text-align: center;
   margin: 0;
   overflow: hidden;
+}
+
+#footer {
+  background-color: var(--Rich-Black) !important;
+  padding: 10px 20px;
+  color: var(--Battleshipgray) !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#footer a {
+  color: var(--Blood-Red);
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: var(--Blood-Red);
+}
+
+#currentDateTime {
+  font-size: 14px;
+  margin: 0;
 }
 
 h1 {
@@ -33,9 +57,9 @@ h1 {
 
 .countdown {
   display: flex;
-  transform: scale(2); 
+  transform: scale(2);
   padding: 50px;
-  color: var(--Rich-Black); 
+  color: var(--Rich-Black);
 }
 
 .time {
@@ -55,9 +79,9 @@ h1 {
   margin: 0 0 5px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .countdown {
-    transform: scale(1.5); 
+    transform: scale(1.5);
     padding: 30px;
   }
 
@@ -75,9 +99,9 @@ h1 {
   }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   .countdown {
-    transform: scale(1); 
+    transform: scale(1);
     padding: 20px;
   }
 
